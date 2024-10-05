@@ -13,5 +13,8 @@ WORKDIR /app
 # PC上のGemfile を .（/app）にコピー
 COPY Gemfile .
 
+# railsサーバー起動前にGemfile.lockに存在するgemがインストールされている必要がある
+COPY Gemfile.lock .
+
 # bundle installでGemfileに記述されているgemをインストール
 RUN bundle install
