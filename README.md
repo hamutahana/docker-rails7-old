@@ -38,6 +38,7 @@ gem install rails -v 7.0.6
 rails new /app --force --database=mysql --skip-bundle --skip-test
 ```
 
+
 # README
 
 This README would normally document whatever steps are necessary to get the
