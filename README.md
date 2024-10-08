@@ -1,9 +1,9 @@
 ## dockerコンテナ生成手順
 ```bash
-# イメージを生成
+# dockerイメージを生成
 docker-compose build
 
-# コンテナを生成・軌道
+# dockerコンテナを生成・起動
 docker-compose up
 ```
 
